@@ -1,0 +1,43 @@
+h5, h2 {
+    color: white;
+    text-align: center;
+}
+h4{
+    color: white;
+    text-align: center;
+    font-size: 0.7em;
+}
+body{
+    background-color: pink;
+}
+nav{
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+a {
+    color: white;
+    margin: 40px;
+    font-size: 1.5em;
+}
+h4.txt{
+    margin:0% auto;
+    font-size: 0.7em;
+    color: black;
+}
+img.logo {
+    display: block;
+    margin: 0% auto;
+    width: 20%;
+}
+h2.note{
+    font-size: 1em;
+}
+h6 {
+    color:black;
+    text-align: center;
+    font-size: 0.7em;
+}
+a:hover {
+    color: black;
+}
