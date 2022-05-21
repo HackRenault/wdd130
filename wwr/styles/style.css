@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
 @import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Lora:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Lora:ital@1&display=swap');
@@ -7,6 +8,8 @@
     width: 80px;
     padding-top: 10px;
 }
+=======
+>>>>>>> d957afaa68a321f3e1fb1f45eb9fe927bec44c0c
 #content {
 max-width: 1600px;
 margin: 0 auto;
@@ -39,15 +42,19 @@ width: 100%;
 main section{
     text-align: center;
 }
+<<<<<<< HEAD
 main section img{
     box-sizing: border-box
 }
+=======
+>>>>>>> d957afaa68a321f3e1fb1f45eb9fe927bec44c0c
 #background {
     height: 725px;
     background-color: rgb(78, 201, 160);
 }
 body{
     background-color: antiquewhite;
+<<<<<<< HEAD
     font-family: 'Lora', serif;
     font-size: 22px;
     padding: 0px;
@@ -60,11 +67,17 @@ body{
 }
 header{
     background-color:#6f7364;
+=======
+}
+header{
+    background-color:rgba(177, 155, 59, 0.568);
+>>>>>>> d957afaa68a321f3e1fb1f45eb9fe927bec44c0c
 }
 nav a:hover{
     background-color:rgb(137, 158, 158);
     text-decoration: none;
 }
+<<<<<<< HEAD
 .book, .join{
     background-color:rgba(188, 197, 67, 0.507);
     text-decoration: none;
@@ -72,6 +85,15 @@ nav a:hover{
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+=======
+.book{
+    background-color:rgba(177, 155, 59, 0.568);
+    text-decoration: none;
+}
+.join{
+    background-color: rgb(235, 232, 228);
+    text-decoration: none;
+>>>>>>> d957afaa68a321f3e1fb1f45eb9fe927bec44c0c
 }
 .book:hover{
     background-color: azure;
@@ -79,6 +101,7 @@ nav a:hover{
 .join:hover{
     background-color: azure;
 }
+<<<<<<< HEAD
 .msg {
     background-color: #6f7364;
     line-height: 1.5em;
@@ -99,6 +122,13 @@ footer{
     background-color:#6f7364;
     padding: 25px 50px;
     margin-top: 200px;
+=======
+.msg{
+    background-color:rgba(188, 197, 67, 0.507);
+}
+footer{
+    background-color:rgba(177, 155, 59, 0.568);
+>>>>>>> d957afaa68a321f3e1fb1f45eb9fe927bec44c0c
 }
 footer a{
     text-decoration: none;
@@ -106,6 +136,7 @@ footer a{
 footer h3 a:hover{
     text-decoration: underline;
 }
+<<<<<<< HEAD
 footer .social img {
     padding-top: 15px;
 }
@@ -115,3 +146,8 @@ footer .social img {
 .card-img{
     border: 10px solid rgb(148, 138, 105);
 }
+=======
+.icon{
+    width: 80px;
+}
+>>>>>>> d957afaa68a321f3e1fb1f45eb9fe927bec44c0c
