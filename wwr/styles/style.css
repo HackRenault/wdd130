@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Lora:ital@1&display=swap');
+
+
+.icon{
+    width: 80px;
+    padding-top: 10px;
+}
 #content {
 max-width: 1600px;
 margin: 0 auto;
@@ -5,9 +14,17 @@ margin: 0 auto;
 nav{
     text-align: center;
 }
+.logo{
+    width: 80px;
+}
+#logo_link{
+    padding-top: 5px;
+}
 nav a{
     text-align: center;
     color: aliceblue;
+    padding: 35px;
+    text-decoration: none;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -22,27 +39,39 @@ width: 100%;
 main section{
     text-align: center;
 }
+main section img{
+    box-sizing: border-box
+}
 #background {
     height: 725px;
     background-color: rgb(78, 201, 160);
 }
 body{
     background-color: antiquewhite;
+    font-family: 'Lora', serif;
+    font-size: 22px;
+    padding: 0px;
+    margin: 0px;
+}
+.home-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 header{
-    background-color:rgba(177, 155, 59, 0.568);
+    background-color:#6f7364;
 }
 nav a:hover{
     background-color:rgb(137, 158, 158);
     text-decoration: none;
 }
-.book{
-    background-color:rgba(177, 155, 59, 0.568);
+.book, .join{
+    background-color:rgba(188, 197, 67, 0.507);
     text-decoration: none;
-}
-.join{
-    background-color: rgb(235, 232, 228);
-    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: azure;
@@ -50,11 +79,26 @@ nav a:hover{
 .join:hover{
     background-color: azure;
 }
-.msg{
+.msg {
+    background-color: #6f7364;
+    line-height: 1.5em;
+    padding: 35px;
+  }
+.msg h2{
     background-color:rgba(188, 197, 67, 0.507);
+    font-family: 'Lato', sans-serif;
+}
+.msg p{
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+h2 {
+    margin: 0px;
 }
 footer{
-    background-color:rgba(177, 155, 59, 0.568);
+    background-color:#6f7364;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     text-decoration: none;
@@ -62,6 +106,12 @@ footer a{
 footer h3 a:hover{
     text-decoration: underline;
 }
-.icon{
-    width: 80px;
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid rgb(148, 138, 105);
 }
