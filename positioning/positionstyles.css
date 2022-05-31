@@ -101,8 +101,6 @@ column-gap: 25px;
   /* This is the parent of the activity 4 boxes. */
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 25px
-  height: 400px;
 }
 .red4 {
   width: 100%; 
