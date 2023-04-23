@@ -1,0 +1,27 @@
+.callout {width: 400px;
+    margin: 10px;
+    border: solid 1px gray;
+    padding: 20px;	
+    background-color: rgb(26, 59, 119);
+    color: rgb(225, 232, 239);
+}
+
+img {float: right;
+    margin: 10px;
+    border: solid 1px rgb(0, 0, 0);
+    padding: 4px;
+    background-color: gainsboro;
+    width: 100px;
+    height: auto;
+    
+}
+
+blockquote {margin: auto;
+}
+
+cite {display: block;
+    border-top: dotted 1px white;
+	padding-top: 4px;
+    text-align: right;
+    font-size: 15px;
+}
