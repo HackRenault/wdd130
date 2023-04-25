@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Habibi&family=Ibarra+Real+Nova&family=Rock+Salt&display=swap'); 
+
+h1 {
+    font-family: Rock Salt, cursive;
+}
+
+:root {
+    --primary-color: #e5dca9;
+    --secondary-color: #2D936C;
+    --accent1-color: #5FAD41;
+    --accent2-color: #d05269;
+    --accent3-color: #EEE5E9;
+    --heading-font: 'Rock Salt', cursive;
+    --paragraph-font: 'Habibi', 'Ibarra Real Nova', serif;
+    --nav-background-color: #2ec6636d;
+    --nav-link-color: #074ebfd8;
+    --nav-hover-background-color:rgb(48, 185, 167);
+    --nav-hover-link-color: rgba(178, 60, 60, 0.944);
+}
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+}
+header {
+    padding: 20px;
+    background-color: var(--primary-color);
+}
+p {
+    padding: .7em;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2em;
+    display: flex;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+.JoinUs {
+    color: var(--nav-link-color);
+    text-decoration: none
+}
+.JoinUs:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
