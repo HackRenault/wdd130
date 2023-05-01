@@ -35,8 +35,8 @@ aside img {
     height: auto;
     margin-left: 1em;
 }
-footer p {
-    margin: 1em;
+footer {
+    margin-top: 1em;
     border-top: solid 1px burlywood;
     text-align: center;
 }
