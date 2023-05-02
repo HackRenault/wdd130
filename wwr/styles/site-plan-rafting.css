@@ -2,6 +2,7 @@
 
 h1 {
     font-family: Rock Salt, cursive;
+	text-shadow: 3px 3px 5px #777;
 }
 
 :root {
