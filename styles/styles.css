@@ -38,13 +38,14 @@ aside {
     border: dotted 1px #aa6245;
     /* background-color: khaki; */ 
     text-align: center;
+    position: relative;
 }
 
 aside h2 {
     position: absolute;
-    top: 361px;
-    left: 550px;
-    color: rgb(14, 134, 12);
+    top: -5px;
+    left: 490px;
+    color: rgb(224, 254, 224);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
     text-shadow: 4px 3px 5px #f5f9f7
