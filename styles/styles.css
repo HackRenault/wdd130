@@ -41,10 +41,13 @@ aside {
 }
 
 aside h2 {
-    position: relative;
-    top: 130px;
-    left: 223px;
-    color: rgb(210, 249, 138);
+    position: absolute;
+    top: 361px;
+    left: 550px;
+    color: rgb(14, 134, 12);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-shadow: 4px 3px 5px #f5f9f7
 }
 aside img {
     float: right;
