@@ -2,21 +2,21 @@
 
 h1 {
     font-family: Rock Salt, cursive;
-	text-shadow: 3px 3px 5px #777;
+	text-shadow: 2px 3px 1px #f25c17;
 }
 
 :root {
-    --primary-color: #e5dca9;
+    --primary-color: #eea673;
     --secondary-color: #2D936C;
     --accent1-color: #5FAD41;
-    --accent2-color: #d05269;
+    --accent2-color: #000080;
     --accent3-color: #EEE5E9;
     --heading-font: 'Rock Salt', cursive;
     --paragraph-font: 'Habibi', 'Ibarra Real Nova', serif;
-    --nav-background-color: #2ec6636d;
-    --nav-link-color: #074ebfd8;
-    --nav-hover-background-color:rgb(48, 185, 167);
-    --nav-hover-link-color: rgba(178, 60, 60, 0.944);
+    --nav-background-color: #ff8c00;
+    --nav-link-color: white;
+    --nav-hover-background-color: white;
+    --nav-hover-link-color: #ff8c00;
 }
 body {
     font-family: var(--paragraph-font);
