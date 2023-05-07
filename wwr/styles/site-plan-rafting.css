@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Habibi&family=Ibarra+Real+Nova&family=Rock+Salt&display=swap'); 
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Lora:ital@1&display=swap');
+
 
 h1 {
     font-family: Rock Salt, cursive;
@@ -11,6 +15,8 @@ h1 {
     --accent1-color: #5FAD41;
     --accent2-color: #000080;
     --accent3-color: #EEE5E9;
+    --heading2-font: 'Bona Nova',+serif;
+    --paragraph2-font: Lato, 'Lora',+serif;
     --heading-font: 'Rock Salt', cursive;
     --paragraph-font: 'Habibi', 'Ibarra Real Nova', serif;
     --nav-background-color: #ff8c00;
@@ -23,8 +29,12 @@ body {
     max-width: 960px;
     padding: 20px;
 }
-h1, h2, h3, h4, h5, h6 {
+h1 {
     font-family: var(--heading-font);
+    color: var(--accent2-color);
+}
+h2, h3, h4, h5, h6 {
+    font-family: var(--heading2-font);
     color: var(--accent2-color);
 }
 header {
