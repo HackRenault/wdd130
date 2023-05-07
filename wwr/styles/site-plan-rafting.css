@@ -20,7 +20,7 @@ h1 {
     --heading-font: 'Rock Salt', cursive;
     --paragraph-font: 'Habibi', 'Ibarra Real Nova', serif;
     --nav-background-color: #ff8c00;
-    --nav-link-color: white;
+    --nav-link-color: rgb(76, 126, 242);
     --nav-hover-background-color: white;
     --nav-hover-link-color: #ff8c00;
 }
