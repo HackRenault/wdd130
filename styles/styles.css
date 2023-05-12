@@ -44,16 +44,17 @@ aside h2 {
     position: absolute;
     top: -5px;
     left: 490px;
-    color: rgb(224, 254, 224);
+    color: rgba(114, 234, 93, 0.642);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
-    text-shadow: 4px 3px 5px #f5f9f7
+    text-shadow: 4px 3px 5px #000000
 }
 aside img {
     float: right;
     width: 150px;
     height: auto;
     margin-left: 1em;
+    padding-top: 3px;
 }
 footer {
     margin-top: 1em;
@@ -65,8 +66,11 @@ footer {
 .box {
     margin: 1rem;
     padding: 1rem;
-    background: radial-gradient(hwb(157 4% 7%), #4567aa);
-}
-.box.text {
+    border: solid 1px #f7ff0a;
+    background-color:  #dc7d08ad;
     color: #f7ff0a;
+
 }
+/* .box.text {
+    color: #f7ff0a;
+} */
